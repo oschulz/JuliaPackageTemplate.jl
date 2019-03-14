@@ -10,17 +10,19 @@ using JuliaPackageTemplate
 makedocs(
     sitename = "JuliaPackageTemplate",
     modules = [JuliaPackageTemplate],
-    format = :html,
+    format = Documenter.HTML(
+        prettyurls = !("local" in ARGS),
+        canonical = "https://oschulz.github.io/ShapesOfVariables.jl/stable/"
+    ),
     pages=[
         "Home" => "index.md",
         "API" => "api.md",
         "LICENSE" => "LICENSE.md",
     ],
     doctest = ("fixdoctests" in ARGS) ? :fix : true,
-    html_prettyurls = !("local" in ARGS),
-    html_canonical = "https://oschulz.github.io/JuliaPackageTemplate.jl/stable/",
 )
 
 deploydocs(
-    repo = "github.com/oschulz/JuliaPackageTemplate.jl.git"
+    repo = "github.com/oschulz/JuliaPackageTemplate.jl.git",
+    forcepush = true
 )
