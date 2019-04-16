@@ -20,6 +20,8 @@ makedocs(
         "LICENSE" => "LICENSE.md",
     ],
     doctest = ("fixdoctests" in ARGS) ? :fix : true,
+    linkcheck = ("linkcheck" in ARGS),
+    strict = !("local" in ARGS),
 )
 
 deploydocs(
