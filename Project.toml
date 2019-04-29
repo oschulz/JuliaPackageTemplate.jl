@@ -1,5 +1,6 @@
 name = "JuliaPackageTemplate"
 uuid = "c397c909-374d-579b-8af3-fa3aa4f02e89"
+version = "0.1.0"
 
 [deps]
 
