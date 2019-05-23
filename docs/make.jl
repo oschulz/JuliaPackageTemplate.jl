@@ -12,7 +12,7 @@ makedocs(
     modules = [JuliaPackageTemplate],
     format = Documenter.HTML(
         prettyurls = !("local" in ARGS),
-        canonical = "https://oschulz.github.io/ShapesOfVariables.jl/stable/"
+        canonical = "https://oschulz.github.io/JuliaPackageTemplate.jl/stable/"
     ),
     pages=[
         "Home" => "index.md",
