@@ -12,15 +12,15 @@ end
 Order = [:type]
 ```
 
-## Functions
+## Functions and macros
 
 ```@index
-Order = [:function]
+Order = [:macro, :function]
 ```
 
 # Documentation
 
 ```@autodocs
 Modules = [JuliaPackageTemplate]
-Order = [:type, :function]
+Order = [:type, :macro, :function]
 ```
