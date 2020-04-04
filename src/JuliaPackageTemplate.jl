@@ -2,6 +2,11 @@
 
 __precompile__(true)
 
+"""
+    JuliaPackageTemplate
+
+Template for Julia packages.
+"""
 module JuliaPackageTemplate
 
 # package code goes here

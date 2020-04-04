@@ -6,10 +6,16 @@ DocTestSetup  = quote
 end
 ```
 
-## Types
+## Modules
 
 ```@index
-Order = [:type]
+Order = [:module]
+```
+
+## Types and constants
+
+```@index
+Order = [:type, :constant]
 ```
 
 ## Functions and macros
@@ -22,5 +28,5 @@ Order = [:macro, :function]
 
 ```@autodocs
 Modules = [JuliaPackageTemplate]
-Order = [:type, :macro, :function]
+Order = [:module, :type, :constant, :macro, :function]
 ```
