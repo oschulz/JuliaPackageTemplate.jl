@@ -7,6 +7,14 @@
 using Documenter
 using JuliaPackageTemplate
 
+# Doctest setup
+DocMeta.setdocmeta!(
+    JuliaPackageTemplate,
+    :DocTestSetup,
+    :(using JuliaPackageTemplate);
+    recursive=true,
+)
+
 makedocs(
     sitename = "JuliaPackageTemplate",
     modules = [JuliaPackageTemplate],
