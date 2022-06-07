@@ -5,6 +5,7 @@
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
 [![Build Status](https://github.com/oschulz/JuliaPackageTemplate.jl/workflows/CI/badge.svg?branch=main)](https://github.com/oschulz/JuliaPackageTemplate.jl/actions?query=workflow%3ACI)
 [![Codecov](https://codecov.io/gh/oschulz/JuliaPackageTemplate.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/oschulz/JuliaPackageTemplate.jl)
+[![Aqua QA](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
 
 
 ## Documentation
