@@ -8,6 +8,6 @@ Documenter.DocMeta.setdocmeta!(
     JuliaPackageTemplate,
     :DocTestSetup,
     :(using JuliaPackageTemplate);
-    recursive=true,
+    recursive = true
 )
 Documenter.doctest(JuliaPackageTemplate)

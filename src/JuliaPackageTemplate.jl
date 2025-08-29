@@ -13,8 +13,8 @@ include("extdefs_test.jl")
 include("register_extdeps.jl")
 
 function __init__()
-    _register_extension_deps(
-        test_hellofunc => :Test,
+    return _register_extension_deps(
+        test_hellofunc => :Test
     )
 end
 
